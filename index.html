@@ -52,14 +52,46 @@
 </section>
 <footer>
 <div>
-    <img src="img/3_White_logo_on_color1_430x63.png" alt="logo">
+    <img src="img/1_Primary_logo_on_transparent_430x63 - copia.png" alt="logo">
     <a href="tel:+50240243253"><strong>Telefono: </strong><span>40243253</span></a>
     <a href="mailto:kevinvelascodiaz@gmail.com"><strong>Email: </strong><span>kevinvelascodiaz@gmail.com</span></a>
 
 </div>
 <form>
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" required/>
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required/>
+    <div>
+        <label for="developer">
+            <input type="radio" name="developer" id="junior" checked value="junior"/>Junior
+        </label>
+    </div>
+    <div>
+            <label for="developer">
+                <input type="radio" name="developer" id="senior" value="senior"/>Senior
+            </label>
+        </div>
+        <div>
+            <label for="c#">
+                <input type="checkbox" name="intereses" id="c#" value="c#"/>C#
+            <label>
+                <label for="vb">
+                    <input type="checkbox" name="intereses" id="vb" value="visual basic"/>VB
+                </label>
+                <label for="sql">
+                    <input type="checkbox" name="intereses" id="sql" value="sql"/>SQL
+                </label>
+                <label for="java">
+                        <input type="checkbox" name="intereses" id="java" value="sql"/>Java
+                    </label>
+        </div>
+        <div>
+            <label for="comentario" >comentarios</label>
+            <textarea name="comentarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="button" value="Enviar">
 
-
+        </div>
 
 </form>
 </footer>
