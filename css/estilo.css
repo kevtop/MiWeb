@@ -1,0 +1,92 @@
+*{
+    border: 0px solid red;
+}
+body{
+    font-family: 'Allerta', sans-serif;
+    margin: 0;
+    
+}
+.portada{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 30px;
+    background-image: url("../img/portada.png");
+}
+.contenedor{
+    width: 800px;
+    margin: auto;
+}
+.button{
+    border: none;
+    border-radius: 5px;
+    background: #fd324e;
+    color: white;
+}
+.tituloa{
+    font-size: 38px;
+    font-family: 'Merienda One', cursive;
+    
+}
+.titulob{
+    font-size: 25px;
+    margin-bottom: 40px;
+    font-family: 'Lora', serif;
+}
+.tituloc{
+    font-size: 18px;
+    margin-bottom: 40px;
+    font-family: 'Lora', serif;
+}
+.header{
+    position: relative;
+}
+.logotipo{
+    display: inline-block;
+}
+.menu{
+    font-size: 24px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+}
+.menu li{
+    display: inline-block;
+    margin-left: 30px;
+}
+.skill{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #1f313c;
+    border-radius: 10px;
+}
+.skill h2{
+font-family: 'Montserrat','sans-serif';
+}
+.right{
+    float: right;
+    position: relative;
+    top: -127px;
+}
+.left{
+    float: left;
+    position: relative;
+    top: -30px;
+}
+.contenedor-skill-a{
+    margin-left: 20px;
+}
+.contenedor-skill-b{
+    margin-left: 370px;
+}
+#header{
+
+}
+#portada{
+
+}
+#Skills{
+    
+}
