@@ -56,6 +56,10 @@ body{
     display: inline-block;
     margin-left: 30px;
 }
+.menu li a{
+    color: white;
+    text-decoration: none;
+}
 .skill{
     margin: 10px;
     padding: 10px;
